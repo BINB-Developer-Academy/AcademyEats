@@ -9,27 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
-            List {
-                HStack {
-                    Image("sarimande")
-                        .resizable()
-                        .foregroundStyle(.tint)
-                        .scaledToFit()
-                        .frame(width: 80, height: 80)
-                        .clipped()
-                        .aspectRatio(contentMode: .fit)
-                    Text("Sarimande")
-
+        TabView {
+            FirstScreen(user: "")
+                .tabItem {
+                    Label("First Screen", systemImage: "house")
                 }
-                .padding()
-                .frame(height: 100)
-                .listRowInsets(EdgeInsets())
-            }
-            .navigationTitle("Academy Eats")
-            .navigationBarTitleDisplayMode(.large)
+            SecondScreen()
+                .tabItem {
+                    Label("Second Screen", systemImage: "person")
+                }
         }
+        
     }
+    
 }
 
 #Preview {

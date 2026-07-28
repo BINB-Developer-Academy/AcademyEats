@@ -12,6 +12,10 @@ struct AcademyEatsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //FirstScreen(user: "")
         }
+        
     }
 }
+
+

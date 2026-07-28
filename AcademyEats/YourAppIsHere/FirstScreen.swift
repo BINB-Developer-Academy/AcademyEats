@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct FirstScreen: View {
+    let user: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                NavigationLink {
+                    SecondScreen()
+                } label: {
+                    HStack {
+                        Image("sarimande")
+                            .resizable()
+                            .foregroundStyle(.tint)
+                            .scaledToFit()
+                            .frame(width: 80, height: 80)
+                            .clipped()
+                            .aspectRatio(contentMode: .fit)
+                        Text("Sarimande")
+                        
+                    }
+                    .padding()
+                    .frame(height: 100)
+                    .listRowInsets(EdgeInsets())
+                }
+            }
+            .navigationTitle("Academy Eats")
+            .navigationBarTitleDisplayMode(.large)
+        }
+        
+        
     }
 }
 
 #Preview {
-    FirstScreen()
+    FirstScreen(user: "")
 }
