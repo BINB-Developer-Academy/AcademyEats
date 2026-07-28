@@ -3,4 +3,68 @@
    uuid = "82344BD1-5622-41BF-87CF-74D100203443"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6087BC0E-F98A-4DEA-88FB-3995770CAF55"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcademyEats/YourAppIsHere/FirstScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6087BC0E-F98A-4DEA-88FB-3995770CAF55 - 95b78a6ea062cd0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AcademyEats.Restaurant) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;, AcademyEats.SecondScreen&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;AcademyEats.Restaurant&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;, AcademyEats.SecondScreen&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitleDisplayMode(SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in AcademyEats.FirstScreen.body.getter : some"
+                  moduleName = "AcademyEats.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milaalfitri/Documents/AcademyEats/AcademyEats/YourAppIsHere/FirstScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "6087BC0E-F98A-4DEA-88FB-3995770CAF55 - 586a1108aefce5fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt; in closure #1 (AcademyEats.Restaurant) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;, AcademyEats.SecondScreen&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;AcademyEats.Restaurant&gt;, Swift.Int, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipped(antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt;&gt;, AcademyEats.SecondScreen&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitleDisplayMode(SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in AcademyEats.FirstScreen.body.getter : some"
+                  moduleName = "AcademyEats.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milaalfitri/Documents/AcademyEats/AcademyEats/YourAppIsHere/FirstScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAA4328F-5D5F-4BC9-8AC7-D15EEC4B9019"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcademyEats/YourAppIsHere/FirstScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
