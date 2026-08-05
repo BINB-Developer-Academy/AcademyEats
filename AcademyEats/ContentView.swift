@@ -14,7 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("First Screen", systemImage: "house")
                 }
-            SecondScreen()
+            SecondScreen(restaurant: Restaurant(id: 1, name: "", description: "", image: ""))
                 .tabItem {
                     Label("Second Screen", systemImage: "person")
                 }
